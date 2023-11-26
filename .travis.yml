@@ -7,10 +7,11 @@ addons:
     packages:
       - lib32stdc++6
 
-before_script:
+install:
   - git clone https://github.com/flutter/flutter.git -b stable
   - export PATH="$PATH:`pwd`/flutter/bin"
+  - flutter doctor
 
 script:
-  - flutter doctor
+  - flutter pub get
   - flutter test

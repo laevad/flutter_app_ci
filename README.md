@@ -1,15 +1,17 @@
-# flutter_app_ci
 
-A new Flutter project.
+
+# My Flutter App
+
+[![Build Status](https://api.travis-ci.com/laevad/flutter_app_ci.svg?token=Re4W7gmKMj8NyoReNfPZ&branch=master&status=passed)](https://app.travis-ci.com/github/laevad/flutter_app_ci)
+
+This is a sample Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Here's how you can get started with this app...
 
-A few resources to get you started if this is your first Flutter project:
+...rest of your README...
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,

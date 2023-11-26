@@ -1,0 +1,16 @@
+language: dart
+os:
+  - linux
+dist: xenial
+addons:
+  apt:
+    packages:
+      - lib32stdc++6
+
+before_script:
+  - git clone https://github.com/flutter/flutter.git -b stable
+  - export PATH="$PATH:`pwd`/flutter/bin"
+
+script:
+  - flutter doctor
+  - flutter test
